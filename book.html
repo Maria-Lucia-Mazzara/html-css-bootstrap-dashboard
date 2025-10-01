@@ -63,13 +63,13 @@
             <form>
                 <div class="row">
                     <!-- inizio riga -->
-                    <div class="col-6 pt-2">
+                    <div class="col-6 pt-2 fs-3">
                         <label class="form-label fw-medium">
                             Nome Autore
                         </label>
                         <input type="" class="form-control" placeholder="inserire Nome dell'Autore">
                     </div>
-                    <div class="col-6 pt-2">
+                    <div class="col-6 pt-2 fs-3">
                         <label class="form-label fw-medium">
                             Cognome Autore
                         </label>
@@ -80,11 +80,13 @@
                     <!-- inizio seconda riga -->
                     <div class="row">
                         <div class="col-12 mt-3">
-                            <label class="form-label fw-medium">
+                            <label class="form-label fw-medium fs-3">
                                 Titolo
                             </label>
                             <input type="" class="form-control" placeholder="inserire titolo del libro">
-                            <div class="form-text"> Titolo versione Italiana</div>
+                            <div class="form-text fs-5"> 
+                                Titolo versione Italiana
+                            </div>
                         </div>
                     </div>
                     <!-- fine seconda riga -->
@@ -92,19 +94,25 @@
                     <!-- inizio terza riga -->
                     <div class="row">
                         <div class="col-4 mt-3">
-                            <label for="disabledSelect" class="form-label">Genere</label>
+                            <label for="disabledSelect" class="form-label fs-3">
+                                Genere
+                            </label>
                             <select id="disabledSelect" class="form-select">
                                 <option>Scegli il genere</option>
+                                <option>Fantasy</option>
+                                <option>black-humor</option>
+                                 <option>True-Crime</option>
+                                  <option>Thriller</option>
                             </select>
                         </div>
                         <div class="col-4 mt-3">
-                            <label class="form-label fw-medium">
+                            <label class="form-label fs-3">
                                 Anno di Pubblicazione
                             </label>
                             <input type="" class="form-control" placeholder="Inserisci l'anno">
                         </div>
                         <div class="col-4 mt-3">
-                            <label class="form-label fw-medium">
+                            <label class="form-label fs-3">
                                 ISBN#
                             </label>
                             <input type="" class="form-control" placeholder="Inserisci il codice ISBN#">
@@ -115,8 +123,25 @@
                     <hr class="mt-4">
 
                     <!--inizio quarta riga-->
-                    
-                     <!--fine quarta riga-->
+                    <div class="row">
+                        <div class="mb-3">
+                            <label for="Form-Contro" type="text" class="form-label fs-3">
+                                Note
+                            </label>
+                            <textarea class="form-control form-control form-control-lg" rows="3"
+                                placeholder="Inserisci eventuali note sul libro"></textarea>
+                        </div>
+                        <div class="form-check pl-2 ms-3">
+                            <input type="checkbox" class="form-check-input p-2 mt-2" id="exampleCheck1">
+                            <label class="form-check-label fs-5" for="exampleCheck1">
+                                Disponibile anche in digitale
+                            </label>
+                        </div>
+                        <button type="button" class="btn btn-primary mt-3">
+                            Primary
+                        </button>
+                    </div>
+                    <!--fine quarta riga-->
                 </div>
             </form>
 
